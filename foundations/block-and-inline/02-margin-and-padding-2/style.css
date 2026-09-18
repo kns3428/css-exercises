@@ -16,6 +16,7 @@ body {
   background: dodgerblue;
   margin: 15px;
   font-size: 20px;
+  padding: 10px;
 }
 
 .title {
@@ -30,4 +31,5 @@ button {
   background: white;
   display: block;
   margin: auto;
+  padding: 15px;
 }
