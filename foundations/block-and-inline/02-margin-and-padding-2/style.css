@@ -16,6 +16,10 @@ body {
   background: dodgerblue;
 }
 
+.button-container {
+  margin: auto;
+}
+
 button {
   background: white;
 }
