@@ -14,6 +14,7 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
+  margin: 15px;
 }
 
 .button-container {
