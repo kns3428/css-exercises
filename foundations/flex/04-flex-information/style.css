@@ -18,6 +18,7 @@ img {
 
 .images {
   display: flex;
+  justify-content: space-between;
 }
 
 .item {
