@@ -50,3 +50,8 @@ ul {
   display: flex;
   gap: 10px;
 }
+
+.left-elements {
+  display: flex;
+  justify-content: right;
+}
