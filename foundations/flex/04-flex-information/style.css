@@ -5,6 +5,8 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+
 }
 
 .title {
@@ -16,6 +18,10 @@ img {
 
 .images {
   display: flex;
+}
+
+.text {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
