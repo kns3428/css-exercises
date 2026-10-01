@@ -16,8 +16,7 @@ img {
 
 .images {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: center;
   gap: 52px;
 }
 
