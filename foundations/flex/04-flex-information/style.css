@@ -1,11 +1,13 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
   display: flex;
+  justify-content: center;
 
 }
 
@@ -19,6 +21,7 @@ img {
 .images {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .item {
