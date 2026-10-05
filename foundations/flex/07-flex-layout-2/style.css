@@ -36,9 +36,21 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 15px;
+  padding: 48px;
+  padding-bottom: 60px;
 }
 
 .content {
   display: flex;
   flex: 1;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
