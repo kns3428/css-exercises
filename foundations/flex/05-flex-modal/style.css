@@ -54,13 +54,9 @@ body {
 
 .header {
   font-weight: bold;
-}
-
-.main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 button {
