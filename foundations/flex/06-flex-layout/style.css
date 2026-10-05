@@ -44,6 +44,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  width: 100%;
 }
 
 .footer {
@@ -51,6 +52,8 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  width: 100%;
+  background-color: lightgrey;
 }
 
 .right-links {
