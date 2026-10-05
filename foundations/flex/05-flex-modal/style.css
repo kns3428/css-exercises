@@ -60,6 +60,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px
 }
 
 button {
@@ -72,10 +73,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  padding-top: 15px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  padding-top: 15px;
 }
