@@ -13,6 +13,7 @@ body {
   font-size: 32px;
   font-weight: 900px;
   width: 100%;
+  padding-left: 15px;
 }
 
 .footer {
@@ -39,4 +40,5 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
 }
