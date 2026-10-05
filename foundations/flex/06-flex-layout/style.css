@@ -36,17 +36,12 @@ a {
   padding: 15px
 }
 
-.header {
+.right-links {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-end;
 }
 
-.footer {
+.left-links {
   display: flex;
-  align-items: flex-end;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
