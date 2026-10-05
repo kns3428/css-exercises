@@ -42,21 +42,21 @@ a {
 
 .header {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
 .right-links {
   display: flex;
-  justify-content: flex-end;
 }
 
 .left-links {
   display: flex;
-  justify-content: flex-start;
 }
