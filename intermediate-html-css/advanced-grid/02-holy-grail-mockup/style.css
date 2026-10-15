@@ -116,6 +116,10 @@
   gap: 10px;
 }
 
+.menu {
+  align-self: center;
+}
+
 .logo {
   justify-self: start;
 }
@@ -127,6 +131,11 @@
   gap: 50px;
 }
 
+.side-content , .photo {
+  display: grid;
+  align-self: center;
+}
+
 .nav ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -135,6 +144,11 @@
 
 .article {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  height: 200px;
+  width: 
 }
