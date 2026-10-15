@@ -90,9 +90,13 @@
   font-weight: normal;
 }
 
+
+
+
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr;
+  gap: 5px;
 }
 
 .header {
@@ -105,10 +109,10 @@
   grid-column: span 2;
 }
 
-ul {
+.menu ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-self: start;
+  justify-self: end;
 }
 
 .logo {
@@ -120,4 +124,10 @@ ul {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 40px;
+}
+
+.nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: space-between;
 }
