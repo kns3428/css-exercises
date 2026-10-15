@@ -95,8 +95,8 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 5fr;
-  gap: 5px;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .header {
@@ -113,6 +113,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-self: end;
+  gap: 10px;
 }
 
 .logo {
@@ -123,11 +124,17 @@
   grid-row: span 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 50px;
 }
 
 .nav ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-self: space-between;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
