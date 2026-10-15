@@ -92,7 +92,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 .header {
@@ -113,4 +113,11 @@ ul {
 
 .logo {
   justify-self: start;
+}
+
+.sidebar {
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 40px;
 }
