@@ -89,3 +89,28 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.footer {
+  grid-column: span 2;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-self: ;
+}
+
+.logo {
+  justify-self: start;
+}
